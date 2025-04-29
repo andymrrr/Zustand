@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 
 import { Root } from '../Root';
 import { AuthLayout, DashboardLayout } from '../layouts';
-import { BearPage, Dashboard, JiraPage, LoginPage, PersonPage, WeddingInvitationPage } from '../pages';
+import {  Dashboard, JiraPage, LoginPage, OsosPagina, PersonPage, WeddingInvitationPage } from '../pages';
 
 
 export const router = createBrowserRouter( [
@@ -21,7 +21,7 @@ export const router = createBrowserRouter( [
           },
           {
             path: 'bears',
-            element: <BearPage />
+            element: <OsosPagina />
           },
           {
             path: 'person',
